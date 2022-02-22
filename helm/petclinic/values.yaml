@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ajinkya
+  repository: acr8983.azurecr.io/ajinkya
   tag: latest
   pullPolicy: IfNotPresent
 
