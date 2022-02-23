@@ -9,9 +9,8 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 
-imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+imagePullSecrets:
+  - name: regcred
 
 serviceAccount:
   # Specifies whether a service account should be created
